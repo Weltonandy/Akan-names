@@ -1,4 +1,4 @@
-//imported my js code from my java script consoole 
+//imported my js code from my java script console
 var century, year, month, dayOfMonth, dayOfWeek, day;
 //Get input
 function getInput(){
@@ -9,24 +9,24 @@ function getInput(){
 
 
   if(century == ""){
-    alert("Input the correct gender");
+    alert("Enter the correct gender");
     return false;
   }else if (year == ""){
-    alert("Input the correct year");
+    alert("Enter the correct year");
     return false;
   }else if (month == ""){
-    alert("Input the correct month");
+    alert("Enter the correct month");
     return false;
   }else if(dayOfMonth == ""){
-    alert("input the correct date");
+    alert("Enter the correct date");
     return false;
   }
 }
-//Calculate func
+//Calculating fuctions to output the desired response
 function calculateDay(){
     getInput();
     dayOfWeek = ((((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7) -1;
-    console.log(dayOfWeek); //Test the calculateDay function
+    console.log(dayOfWeek); //Lets test the calculateDay function
     return (Math.floor(dayOfWeek));
     if (dayOfWeek < 0) {
       dayOfWeek = dayOfWeek * -1;
@@ -36,19 +36,19 @@ function calculateDay(){
     }
 }
 
-//main caller func
+//The main caller function
  function checkDayOfWeek(){
      day = calculateDay();
       checkGender();
       console.log("The function runs");//Test chackDayOfWeek function
 }
 
-//arrays
+//Outputting arrays
 let daysOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
 
-//get selected radio button
+//select radio button
 function checkGender(){
   var gen = document.getElementsByName("rads");
   if(gen[0].checked == true){
@@ -56,7 +56,7 @@ function checkGender(){
   }else if(gen[1].checked == true){
       var gender = "female";
   }else {
-    console.log("pass");//Test the radio buttons
+    console.log("pass");//Testing our radio buttons
   }
     switch(gender){
         case gender = "male":
@@ -113,6 +113,6 @@ function checkGender(){
               }
         break
         default:
-        console.log("pass");//Test gender switch
+        console.log("pass");//Display test gender switch
     }
 }
