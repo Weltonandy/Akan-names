@@ -49,7 +49,7 @@ h4{
 }
 .p-text{
   margin: 30px 30px 30px 10px;
-  color: blue;
+  color: #FFA500;
   font-size: 20px;
   font-family: 'Khula', sans-serif;
 }
@@ -64,13 +64,13 @@ h4{
   border-radius: 20px;
 }
 .q-text{
-  color: #fdd043;
+  color: #FFA500;
   font-size: 30px;
   font-weight: bold;
-  margin: 80px 20px 20px 10px;
+  margin: 90px 30px 30px 20px;
 }
 #result{
-  margin-top: 30px;
+  margin-top: 10px;
   color: #000000;
-  font-size: 28px;
+  font-size: 18px;
 }
