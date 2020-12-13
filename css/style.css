@@ -1,7 +1,6 @@
 body{
-  background-image: url("images/image1.jpg");
+  background-image: url('../images/image1.jpg');
 }
-
 h1{
   color: black;
   font-size: 50px;
