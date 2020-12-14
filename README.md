@@ -22,6 +22,7 @@
  Using your preferred app like vs code or atom you can cd into
  my folder which is Akan-names then view the code and open it
  with a browser e.g chrome.
+ Open akan.html with your favorite browser
  ***
 
 #####BDD
@@ -48,3 +49,6 @@
  MIT License
  copyright &copy welton web designs 2020
  ***
+ #########Collaborations
+ For and collabortions or clarifications and corrections,please
+ reach out to me via email.
