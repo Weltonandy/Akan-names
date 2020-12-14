@@ -33,10 +33,10 @@
 
 ######Technologies used
 
- Html
- JavaScript
- CSS
- Bootstrap
+ *Html
+ *JavaScript
+ *CSS
+ *Bootstrap
  ***
 
 #######Contact information
