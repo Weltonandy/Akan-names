@@ -3,9 +3,11 @@ body{
 }
 
 h1{
-  color: black;
+  color: red;
   font-size: 50px;
   text-align: center;
+  font-style: italic;
+  font-weight: bold;
 }
 .parent{
   margin-top: 10px;
@@ -25,7 +27,7 @@ h4{
 
 }
 .overlay{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: GoldenRod;
   border-radius: 5px 0 0 5px;
   height: 670px;
 }
@@ -42,11 +44,11 @@ h4{
   font-family: monospace;
   font-weight: lighter;
   font-size: 25px;
-  color: #6150c1;
+  color: maroon;
 }
 .p-text{
   margin: 30px 30px 30px 10px;
-  color: black;
+  color: indigo;
   font-size: 20px;
   font-family: 'Khula', sans-serif;
 }
@@ -61,13 +63,13 @@ h4{
   border-radius: 20px;
 }
 .q-text{
-  color: #FFA500;
+  color: black;
   font-size: 30px;
   font-weight: bold;
   margin: 90px 30px 30px 20px;
 }
 #result{
   margin-top: 10px;
-  color: #000000;
+  color: DimGrey;
   font-size: 18px;
 }
