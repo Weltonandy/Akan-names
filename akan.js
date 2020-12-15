@@ -36,7 +36,7 @@ function calculateDay(){
     }
 }
 
-//The main caller function
+//Caller function
  function checkDayOfWeek(){
      day = calculateDay();
       checkGender();
@@ -48,7 +48,7 @@ let daysOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "frida
 let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
 
-//select radio button
+//selecting radio button
 function checkGender(){
   var gen = document.getElementsByName("rads");
   if(gen[0].checked == true){
